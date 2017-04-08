@@ -87,7 +87,7 @@ function twitter() {
     });
     var twitterUsername = process.argv[3];
     if (!twitterUsername) {
-        twitterUsername = "JahdashaFlagg";
+        twitterUsername = "TommyBoy21";
     }
     twitterUser = { screen_name: twitterUsername };
     client.get("statuses/user_timeline/", twitterUser, function(error, data, response) {
